@@ -1,0 +1,14 @@
+{
+  "login_with_facebook": "تسجيل دخول بواسطة فيسبوك",
+  "login_with_google": "تسجيل دخول بواسطة جوجل",
+  "login_with_whatsapp": "تسجيل دخول بواسطة واتساب",
+  "login_with_mobile": "تسجيل دخول باستخدام رقم الموبايل",
+  "login_as_guest": "تسجيل الدخول كضيف",
+  "staff_id_register": "ادخل الرقم الوظيفي",
+  "mobile_number_register" : "ادخل رقم الجوال",
+  "password_register" : "ادخل كلمة المرور",
+  "register_text" : "تسجيل الدخول",
+  "Email_register" : "ادخل البريد الالكتروني",
+  "confirm_password_text": "ادخل تأكيد كلمة المرور"
+
+}

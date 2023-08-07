@@ -1,0 +1,13 @@
+{
+  "login_with_facebook": "Login With Facebook",
+  "login_with_google": "Login With Google",
+  "login_with_whatsapp": "Login With whatsapp",
+  "login_with_mobile": "Login With Mobile Number",
+  "login_as_guest": "Login As Guest",
+  "staff_id_register": "Enter the staff id",
+  "mobile_number_register": "Enter Mobile Number",
+  "password_register": "Enter password",
+  "register_text": "Register",
+  "Email_register" : "Enter Email",
+  "confirm_password_text": "Enter password confirmation"
+}
