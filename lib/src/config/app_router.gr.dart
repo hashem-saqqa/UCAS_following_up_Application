@@ -15,22 +15,10 @@ abstract class _$AppRouter extends RootStackRouter {
 
   @override
   final Map<String, PageFactory> pagesMap = {
-    MyHomeRoute.name: (routeData) {
-      return AutoRoutePage<dynamic>(
-        routeData: routeData,
-        child: MyHomePage(),
-      );
-    },
     AuthScreen.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
         child: const AuthScreenView(),
-      );
-    },
-    Splash.name: (routeData) {
-      return AutoRoutePage<dynamic>(
-        routeData: routeData,
-        child: const SplashView(),
       );
     },
     BreakingNews.name: (routeData) {
@@ -39,7 +27,87 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const BreakingNewsView(),
       );
     },
+    Home.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child:  HomeView(),
+      );
+    },
+    LoginScreen.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const LoginScreenView(),
+      );
+    },
+    MyHomeRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: MyHomePage(),
+      );
+    },
+    Splash.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const SplashView(),
+      );
+    },
   };
+}
+
+/// generated route for
+/// [AuthScreenView]
+class AuthScreen extends PageRouteInfo<void> {
+  const AuthScreen({List<PageRouteInfo>? children})
+      : super(
+          AuthScreen.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'AuthScreen';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [BreakingNewsView]
+class BreakingNews extends PageRouteInfo<void> {
+  const BreakingNews({List<PageRouteInfo>? children})
+      : super(
+          BreakingNews.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'BreakingNews';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [HomeView]
+class Home extends PageRouteInfo<void> {
+  const Home({List<PageRouteInfo>? children})
+      : super(
+          Home.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'Home';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [LoginScreenView]
+class LoginScreen extends PageRouteInfo<void> {
+  const LoginScreen({List<PageRouteInfo>? children})
+      : super(
+          LoginScreen.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'LoginScreen';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
 }
 
 /// generated route for
@@ -57,20 +125,6 @@ class MyHomeRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
-/// [AuthScreenView]
-class AuthScreen extends PageRouteInfo<void> {
-  const   AuthScreen({List<PageRouteInfo>? children})
-      : super(
-          AuthScreen.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'AuthScreen';
-
-  static const PageInfo<void> page = PageInfo<void>(name);
-}
-
-/// generated route for
 /// [SplashView]
 class Splash extends PageRouteInfo<void> {
   const Splash({List<PageRouteInfo>? children})
@@ -80,20 +134,6 @@ class Splash extends PageRouteInfo<void> {
         );
 
   static const String name = 'Splash';
-
-  static const PageInfo<void> page = PageInfo<void>(name);
-}
-
-/// generated route for
-/// [BreakingNewsView]
-class BreakingNews extends PageRouteInfo<void> {
-  const BreakingNews({List<PageRouteInfo>? children})
-      : super(
-          BreakingNews.name,
-          initialChildren: children,
-        );
-
-  static const String name = 'BreakingNews';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }

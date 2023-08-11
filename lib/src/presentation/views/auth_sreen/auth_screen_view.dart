@@ -21,9 +21,7 @@ class AuthScreenView extends HookWidget {
         ),
         Container(
           alignment: Alignment.center,
-          width: MediaQuery
-              .sizeOf(context)
-              .width,
+          width: MediaQuery.sizeOf(context).width,
           child: Image.asset(
               width: 150,
               height: 150,
@@ -43,13 +41,24 @@ class AuthScreenView extends HookWidget {
         ),
         Expanded(
             child: SingleChildScrollView(
-              child: Column(children: [
-              Container(
+          child: Column(children: [
+            Container(
               margin: const EdgeInsets.symmetric(horizontal: 16),
               child: TextField(
                 decoration: InputDecoration(
                     enabledBorder: const OutlineInputBorder(),
                     hintText: staff_id_register.tr(context)),
+              ),
+            ),
+            const SizedBox(
+              height: 24,
+            ),
+            Container(
+              margin: const EdgeInsets.symmetric(horizontal: 16),
+              child: TextField(
+                decoration: InputDecoration(
+                    enabledBorder: const OutlineInputBorder(),
+                    hintText: name_register.tr(context)),
               ),
             ),
             const SizedBox(
@@ -100,20 +109,22 @@ class AuthScreenView extends HookWidget {
               height: 30,
             ),
             TextButton(
-              style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all<Color>(buttonColor.getColor()),
-                foregroundColor: MaterialStateProperty.all(buttonTextColor.getColor()) ,
-              )
-            ,onPressed: ()
-            {},
-            child: const Text("Register")),
-        const SizedBox(
-          height: 50,
-        ),
+                style: ButtonStyle(
+                  backgroundColor:
+                      MaterialStateProperty.all<Color>(buttonColor.getColor()),
+                  foregroundColor:
+                      MaterialStateProperty.all(buttonTextColor.getColor()),
+                ),
+                onPressed: () {
+
+                },
+                child: Text(create_new_account_button_text.tr(context))),
+            const SizedBox(
+              height: 50,
+            ),
+          ]),
+        ))
       ]),
-    ))]
-    )
-    ,
     );
   }
 }

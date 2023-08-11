@@ -7,7 +7,14 @@
   "staff_id_register": "Enter the staff id",
   "mobile_number_register": "Enter Mobile Number",
   "password_register": "Enter password",
-  "register_text": "Register",
+  "register_text": "Register new account",
   "Email_register" : "Enter Email",
-  "confirm_password_text": "Enter password confirmation"
+  "confirm_password_text": "Enter password confirmation",
+  "name_register" : "Enter your full name",
+  "login_text" : "Login",
+  "login_button_text": "Login",
+  "create_new_account_button_text" : "create new account",
+  "add_new_section_text" : "Add new section",
+  "all_sections_title" : "All Sections"
+
 }

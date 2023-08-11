@@ -7,8 +7,14 @@
   "staff_id_register": "ادخل الرقم الوظيفي",
   "mobile_number_register" : "ادخل رقم الجوال",
   "password_register" : "ادخل كلمة المرور",
-  "register_text" : "تسجيل الدخول",
+  "register_text" : "تسجيل حساب جديد",
   "Email_register" : "ادخل البريد الالكتروني",
-  "confirm_password_text": "ادخل تأكيد كلمة المرور"
+  "confirm_password_text": "ادخل تأكيد كلمة المرور",
+  "name_register" : "ادخل اسمك بالكامل",
+  "login_text" : "تسجيل الدخول",
+  "login_button_text" : "تسجيل",
+  "create_new_account_button_text" : "انشاء حساب جديد",
+  "add_new_section_text" : "اضافة شعبة جديدة",
+  "all_sections_title" : "جميع الشعب"
 
 }
